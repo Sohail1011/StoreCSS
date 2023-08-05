@@ -1,0 +1,72 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    display: block;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+div {
+    display: block;
+}
+
+.name-website {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.name-website span {
+    color: blue;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+
+.navigation-content {
+    border-top: 0.1rem solid #e1e1e1;
+}
+
+.nav-principal {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav-principal {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
